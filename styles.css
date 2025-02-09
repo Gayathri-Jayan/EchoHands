@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 0.5s ease-in-out;
+    color: #fff;
+    
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding: 15px;
+    color: rgb(109, 17, 17);
+    text-align: center;
+    font-size: 2em;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.form-container {
+    background: rgba(84, 14, 14, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
+}
+
+button {
+    background-color: #f4b25c;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f3a659;
+}
